@@ -39,6 +39,5 @@ def over?(board)
 end
 
 def winner(board)
-  line = won?(board)
-  draw?(board) ? nil : [line[0]]
+  line = won?(board) ? [line[0]] : nil
 end
