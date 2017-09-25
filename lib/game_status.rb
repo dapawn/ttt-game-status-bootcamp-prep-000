@@ -39,7 +39,7 @@ def over?(board)
 end
 
 def winner(board)
-  if (line = won?(board))
+  if line = won?(board)
     return [line[0]]
   else return nil
   end
