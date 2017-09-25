@@ -33,3 +33,7 @@ end
 def draw?(board)
   !won?(board)
 end
+
+def over?(board)
+  won?(board) || draw?(board)
+end
