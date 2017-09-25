@@ -37,3 +37,8 @@ end
 def over?(board)
   won?(board) || draw?(board) ? true : false
 end
+
+def winner(board)
+  line = won?(board)
+  board[line[0]]
+end
