@@ -33,4 +33,3 @@ end
 def draw?(board)
   !won?(board)
 end
-
