@@ -40,7 +40,7 @@ end
 
 def winner(board)
   if line = won?(board)
-    return [line[0]]
+    return line[0]
   else return nil
   end
 end
